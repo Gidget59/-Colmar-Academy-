@@ -1,17 +1,40 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
-
 h1 {
     color: #333;
     text-align: right;
-    margin-top: 20px;
+    padding: 24px;
+    font-size: 32px;
+    
 }
-nav {
+.nav {
     text-align: right;
     margin: 16px;
     
+}
+.footer{
+    margin-top: 16px;
+    padding-left: 24px;
+}
+    .footer p1{
+        align-items: right;
+}
+.footer p2 {
+    text-align: left;
+}
+
+/* Changes in media sizing */
+@media (max-width: 600px) {
+    .main-content {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+
+    .card {
+        margin-bottom: 15px; /* Reduce spacing if needed */
+    }
 }
