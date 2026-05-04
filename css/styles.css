@@ -15,6 +15,7 @@ h1 {
 .nav {
     text-align: right;
     margin: 16px;
+    display: inline;
     
 }
 .footer{
