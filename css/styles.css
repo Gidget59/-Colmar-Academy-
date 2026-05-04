@@ -10,13 +10,12 @@ h1 {
     text-align: right;
     padding: 24px;
     font-size: 32px;
-    
+    display: center;
+
 }
 .nav {
     text-align: right;
     margin: 16px;
-    display: inline;
-    
 }
 .footer{
     margin-top: 16px;
